@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flip Card Web Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <flip-card class="card" variant="click">
+            <div class="card__details" slot="front">
+                <img src="/source/img/front.png" class="img">
+            </div>
+            <div class="card__details" slot="back">
+                <img src="source/img/back.png" class="img">
+            </div>
+        </flip-card>
+    </div>
+    <script src="http://unpkg.com/flip-card-wc/dist/flip-card-wc.js"></script>
+</body>
+
+</html>
